@@ -369,10 +369,19 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media screen and (max-width:600px)
+{
+  .hidden-mobile{
+
+      display:none;
+    
+  }
+}
+
 #hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/table-hero.JPG") center -100px;
   background-size: cover;
   position: relative;
   margin-top: 70px;
